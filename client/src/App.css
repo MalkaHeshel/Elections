@@ -1,0 +1,204 @@
+.cover{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.514);
+  top: 0px;
+  bottom: 0px;
+  z-index: 99;
+}
+
+.component {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0c0c0c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.tova{
+  color:black;
+}
+.lableLogIn{
+  font-size: xxx-large;
+  color:#000080;
+}
+
+.btnLogIn{
+  border-radius:9%;
+  border-color: #9797b5;
+  color: #000080;
+  
+}
+
+.mainNav{
+  text-align: right;
+  background: linear-gradient(to left,#121238,#0b0b58,#000080 100%);
+  color: white;
+  margin-top: 1%;
+  height: 10%;
+  font-size: xxx-large;
+  padding: 1%;
+}
+
+link{
+  text-decoration: none;
+}
+
+.lable{
+  text-align: center;
+}
+.employees-buttons{
+  display: flex;
+  margin-left: 15%;
+}
+.StaticsCities{
+  height: 50%;
+  width: 50%;
+}
+div.VictoryContainer{
+  max-width: 50%;
+}
+.statics{
+  display: flex;
+  
+}
+
+
+.loginForm{
+  width: 38%;
+  height: 220px;
+  margin-left: 32%;
+  display: grid;
+  justify-content: space-around;
+}
+html{
+  /* background-image: url('/static/media/backkground.5204e257.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+   */
+}
+body{
+  background-image: url('/static/media/backkground.5204e257.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inputLogIn{
+  background-color: #ecf6fd;
+    border-radius: 7%;
+    margin: 1.5%;
+    border-color: #000f85;
+
+}
+
+h4{text-align: center;}
+
+/* .home{
+  background-image: url("/img/בחירות\ 25.jpg") ;
+  margin: 5%;
+} */
+
+.noActive{
+  opacity: 40%;
+}
+
+.logInButtons{
+
+}
+
+.footer{
+  
+}
+
+div.partiesMenue{
+  height: 200px;
+  width: 200px;
+  border-color:black solid 1px;
+}
+.party{
+  display: grid;
+  background-color:white;
+  width: 264px;
+  margin: 20px;
+  text-align: center;
+  height: 254px;
+  border: black 1px solid;
+  align-content: space-evenly;
+}
+div.parties{
+  height: 70vh;
+  width: 65vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: stretch;
+    align-content: center;
+    background-color: #88bcec;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.workerForm1{
+  margin-right: 45%;
+}
+
+.vote{
+  margin-left: 42vw;
+  margin-top: 30px;
+  border-radius: 10px;
+  height: 50px;
+  width: 100px;
+  background-color: #ffffff;
+
+}
+
+.formidentify{
+  display: grid;
+    align-content: space-around;
+    justify-items: end;
+    justify-content: space-around;
+}
+.back-date{
+  /* background-image: url('/static/media/FIX.1f3fbcdb.png');
+  background-repeat: no-repeat; */
+  /* background-color: #61dafb; */
+  /* z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%; */
+}
